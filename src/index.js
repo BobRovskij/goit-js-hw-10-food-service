@@ -1,6 +1,7 @@
+import './sass/main.scss';
 import cards from './menu.json';
 import menuCardsTpl from './templates/menuCardsTpl.hbs';
-import {onChangeCheckbox} from './checkbox';
+import {onChangeCheckbox} from './js/checkbox.js';
 
 const menuCards = menuCardsTpl(cards);
 const menuRender = document.querySelector('.js-menu');
